@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    width: 100vw;
+    background-color: #fff;
+}
+.logo{
+    padding: 8px 0px;
+}
+.logo p{
+    display: inline-block;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo p span{
+    color: #00A5EC;
+}
+.main{
+    height:90vh;
+    background-color: #F7F7F7;
+}
+ .maintask{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    padding: 20px 0px;
+}
+.para{
+    margin: 0px 8px;
+}
+
+.cards{
+    height: 400px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 32.4%;
+    height:50%;
+    background-color: #fff;
+    margin: 4px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.top p{
+    font-size: 14px;
+    color:#00A5EC;
+    font-weight: 600;
+    padding: 15px 0px;
+    padding-left: 15px;
+}
+.checked{
+    display: flex;
+    align-items: center;
+    margin:15px 0px;
+    opacity: 0.3;
+    padding-left: 15px;
+}
+.checked p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.unchecked{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+.unchecked p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
+    
+}
